@@ -1,0 +1,191 @@
+/* The sidebar menu */
+.navbar {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	z-index: 2;
+}
+
+.navbar-light{
+  transition: 500ms ease;
+  background: transparent;
+}
+
+.navbar-light.scrolled{
+  background: #fcfcfa;
+}
+
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 30%; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  background-color: #fcfcfa; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+}
+
+.main {
+  width: 70%; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+.jumbotron {
+	margin-top: 70px;
+  background-color: transparent;
+  position: relative;
+}
+
+.jumbotron img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.jumbotron button {
+  position: absolute;
+  bottom: 130px;
+  left: 150px;
+  background-color: orange;
+  border-radius: 20px;
+}
+
+.carousel-inner {
+	height: 230px;
+	display: flex;
+	align-items: center;
+}
+
+.carousel-item {
+	width: 70%;
+	text-align: auto;
+	margin: auto;
+}
+
+.menu {
+	height: 150px;
+	box-shadow: 20px 20px 30px 10px #efefef;
+	border-radius: 50px;
+	background-color: #ffffff;
+	padding: 10px;
+}
+
+.menu:hover {
+  background-color: orange;
+}
+
+.icon {
+	border-radius: 50%;
+	height: 50%;
+	background-color: white;
+	text-align: center;
+	border-style: solid;
+	border-color: #f4f2f1;
+}
+
+.card-body {
+	padding: 15px 0;
+	text-align: center;
+}
+
+.card-title {
+	font-size: 14px;
+}
+
+.heading h2 {
+  float: left;
+}
+
+.heading a {
+  float: right;
+  background-color: orange;
+  border-radius: 20px;
+}
+
+.arrow {
+	color: black;
+}
+
+.arrow:hover {
+	color: orange;
+}
+
+.card-img-top {
+	display: block;
+	width: 100%;
+	height: 200px;
+	background-position: center;
+	background-size: cover;
+}
+
+.card-text {
+	text-align: left;
+}
+
+.text-muted {
+	padding: 0 10px;
+}
+
+.cafe {
+	/*background: transparent;*/
+	border-radius: 15px;
+	/*border: none;*/
+}
+
+.order {
+	margin-top: 80px;
+	padding-bottom: 10px;
+}
+
+.alamat {
+	width: 100%;
+	padding: 40px;
+	background-color: #877a6e;
+	border-radius: 20px;
+	color: white;
+}
+
+.jumlah {
+	padding: 6px 12px;
+	background-color: orange;
+	border-radius: 13px;
+}
+
+.kanan {
+	text-align: right;
+}
+
+.pesanan {
+	margin-top: 30px;
+}
+
+.pesanan img {
+	height: 60px;
+	width: 80px;
+	padding: 5px 0;
+	border-radius: 15px;
+}
+
+.total {
+	margin-top: 30px;
+	border-style: solid;
+	border-width: 0 0 2px 0;
+	border-color: #dddce2;
+}
+
+.pesan {
+	height: 80px;
+	background-color: orange;
+  	border-width: 3px 0 3px 3px;
+  	border-radius: 20px 0 0 20px;
+}
+
+.persons {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

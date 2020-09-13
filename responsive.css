@@ -1,0 +1,41 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .sidenav {
+    display: none;
+  }
+
+  .main {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 15px;
+  }
+
+  .input-group {
+    width: 50%;
+  }
+
+  .heading .btn {
+    font-size: 15px;
+  }
+
+  .carousel-item {
+    width: 60%;
+  }
+
+  .menu {
+    width: 50%;
+  }
+
+  .jumbotron button {
+    bottom: 40px;
+    left: 50px;
+    font-size: 8px;
+  }
+}
